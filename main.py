@@ -6,7 +6,7 @@ print("You entered: " + str(var))
 # function to run for prediction
 def fakenews(var):    
 # retrieving the best model for prediction call
-    load_model = pickle.load(open('A:\data\model.sav', 'rb'))
+    load_model = pickle.load(open('model.sav', 'rb'))
     prediction = load_model.predict([var])
     prob = load_model.predict_proba([var])
 
