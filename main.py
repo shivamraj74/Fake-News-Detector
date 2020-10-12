@@ -1,5 +1,5 @@
 import pickle
-var = input("Please enter the news text you want to verify: ")
+var = input("Enter the news which is to be verified!")
 print("You entered: " + str(var))
 
 
